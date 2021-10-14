@@ -35,4 +35,7 @@ class BasePage:
         WebDriverWait(self._driver, time, 0.5).until(
             EC.element_to_be_clickable(locator)
         )
-
+    def wait_for_element(self,conditions,time=10):
+        WebDriverWait(self._driver, time, 0.5).until(
+            conditions
+        )

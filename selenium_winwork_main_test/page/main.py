@@ -22,6 +22,13 @@ class Main(BasePage):
         # WebDriverWait(self._driver,10).until(
         #     EC.element_to_be_clickable((By.XPATH,'//main[@id="main"]//div[@class="ww_operationBar"]/a[1]'))
         # )
-        self.wait_for_click((By.XPATH, '//main[@id="main"]//div[@class="ww_operationBar"]/a[1]'))#显示等待
-        self.find(By.XPATH, '//main[@id="main"]//div[@class="ww_operationBar"]/a[1]').click()
+        """自定义的显示等待"""
+        def wait_add_member(x):
+            elements_len=len(self.find(By.CSS_SELECTOR,'#username'))
+            if elements_len <=0:
+                self.find(By.XPATH,'//main[@id="main"]//div[@class="ww_operationBar"]/a[1]')
+            return elements_len >0
+        # self.wait_for_click((By.XPATH, '//main[@id="main"]//div[@class="ww_operationBar"]/a[1]'))#显示等待
+        # self.find(By.XPATH, '//main[@id="main"]//div[@class="ww_operationBar"]/a[1]').click()
+        self.wait_for_element(wait_add_member)
         return AddMember(self._driver)
