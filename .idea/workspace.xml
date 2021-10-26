@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e57776aa-ddfb-434a-af21-da1f1e6a34eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/UI自动化测试框架/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI自动化测试框架/page/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI自动化测试框架/page/base_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI自动化测试框架/page/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI自动化测试框架/test_case/test_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_test/page/addresslist_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_test/page/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_test/page/base_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_test/page/contact_add.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_test/page/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_test/page/member_invit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_test/test_contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_test/test_contact1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_test/test_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_test/appium_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/trafficlight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xueqiuwork/__init__.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/huoge$pytest_for_first_test_TestXueQiu_test_search.coverage" NAME="pytest for first_test.TestXueQiu.test_search Coverage Results" MODIFIED="1634740432143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app_test" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_in_test_wait_py.coverage" NAME="pytest in test_wait.py Coverage Results" MODIFIED="1634005553389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/huoge$test_selenium1.coverage" NAME="test_selenium1 Coverage Results" MODIFIED="1633882510762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_selenium_work" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_for_test_search_TestXueQiu_test_search.coverage" NAME="pytest for test_search.TestXueQiu.test_search Coverage Results" MODIFIED="1634785642504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app_test" />
+    <SUITE FILE_PATH="coverage/huoge$test_calc.coverage" NAME="test_calc Coverage Results" MODIFIED="1633706875012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/huoge$test_huogewozi.coverage" NAME="test_huogewozi Coverage Results" MODIFIED="1633927849116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_selenium_work" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_for_test_add_member_TestAddMember_test_ademember.coverage" NAME="pytest for test_add_member.TestAddMember.test_ademember Coverage Results" MODIFIED="1634140306408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_wekwork_mian/test_case" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_in_test_contact_py.coverage" NAME="pytest in test_contact.py Coverage Results" MODIFIED="1634833541937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app_test" />
+    <SUITE FILE_PATH="coverage/huoge$test_windows.coverage" NAME="test_windows Coverage Results" MODIFIED="1634005636271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_windows" />
+    <SUITE FILE_PATH="coverage/huoge$test_fixture1.coverage" NAME="test_fixture1 Coverage Results" MODIFIED="1633850393139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/huoge$handle_yaml.coverage" NAME="handle_yaml Coverage Results" MODIFIED="1633704747391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/handle" />
+    <SUITE FILE_PATH="coverage/huoge$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1633675593233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_in_test_windows_py.coverage" NAME="pytest in test_windows.py Coverage Results" MODIFIED="1634006858047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_for_test_registrt_TestRegister_test_register.coverage" NAME="pytest for test_registrt.TestRegister.test_register Coverage Results" MODIFIED="1634116790694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_login_wewoerk" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_for_test_contact1_TestContact_test_addcontact.coverage" NAME="pytest for test_contact1.TestContact.test_addcontact Coverage Results" MODIFIED="1635168136169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app_test" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_for_test_case1_TestCaseone.coverage" NAME="pytest for test_case1.TestCaseone Coverage Results" MODIFIED="1634100108141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_OP" />
+    <SUITE FILE_PATH="coverage/huoge$test_woeed.coverage" NAME="test_woeed Coverage Results" MODIFIED="1633938093714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_for_first_test_TestXueQiu.coverage" NAME="pytest for first_test.TestXueQiu Coverage Results" MODIFIED="1634740332613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app_test" />
+    <SUITE FILE_PATH="coverage/huoge$test_selenium.coverage" NAME="test_selenium Coverage Results" MODIFIED="1633882378516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_selenium" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_in_first_test_py.coverage" NAME="pytest in first_test.py Coverage Results" MODIFIED="1634740288181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app_test" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_for_test_case1_TestCaseone_test_demo.coverage" NAME="pytest for test_case1.TestCaseone.test_demo Coverage Results" MODIFIED="1634100135682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_OP" />
+    <SUITE FILE_PATH="coverage/huoge$test_yield.coverage" NAME="test_yield Coverage Results" MODIFIED="1633755450564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/huoge$test_fixture.coverage" NAME="test_fixture Coverage Results" MODIFIED="1633754039834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_in_test_huogewozi_py.coverage" NAME="pytest in test_huogewozi.py Coverage Results" MODIFIED="1633947143711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_in_test_fixture_py.coverage" NAME="pytest in test_fixture.py Coverage Results" MODIFIED="1633850405780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_in_test_case1_py.coverage" NAME="pytest in test_case1.py Coverage Results" MODIFIED="1634030132662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_OP" />
+    <SUITE FILE_PATH="coverage/huoge$test_wait.coverage" NAME="test_wait Coverage Results" MODIFIED="1633948478348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_selenium_work" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_test/page/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/test_001.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appium_test/appium_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app_test/page/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/selenium_wekwork_mian/test_case/test_add_member.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_test/page/base_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/selenium_winwork_main_test/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/selenium_winwork_main_test/page/add_member.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="517">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/selenium_winwork_main_test/page/base_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding>
+                <element signature="e#86#116#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/selenium_winwork_main_test/page/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>wait</find>
+      <find>driver</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>self.driver</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testing/test_calc.py" />
+        <option value="$PROJECT_DIR$/testing/test_yield.py" />
+        <option value="$PROJECT_DIR$/testing/test_fixture.py" />
+        <option value="$PROJECT_DIR$/testing/test_fixture1.py" />
+        <option value="$PROJECT_DIR$/test_selenium/test_selenium.py" />
+        <option value="$PROJECT_DIR$/test_selenium_work/test_huogewozi.py" />
+        <option value="$PROJECT_DIR$/test_selenium_work/test_wait.py" />
+        <option value="$PROJECT_DIR$/test_selenium_work/test_selenium_Action/test_ActionChians.py" />
+        <option value="$PROJECT_DIR$/test_selenium_work/test_selenium_Action/test_TouchAction.py" />
+        <option value="$PROJECT_DIR$/slenium_windows/test_frame.py" />
+        <option value="$PROJECT_DIR$/slenium_windows/base.py" />
+        <option value="$PROJECT_DIR$/slenium_windows/test_windows.py" />
+        <option value="$PROJECT_DIR$/test_windows/base.py" />
+        <option value="$PROJECT_DIR$/test_windows/test_windows.py" />
+        <option value="$PROJECT_DIR$/test_for_windows/test_windows.py" />
+        <option value="$PROJECT_DIR$/test_js/base.py" />
+        <option value="$PROJECT_DIR$/test_js/test-jsconsle.py" />
+        <option value="$PROJECT_DIR$/test_for_windows/base.py" />
+        <option value="$PROJECT_DIR$/selenium_file_alter/test_file.py" />
+        <option value="$PROJECT_DIR$/selenium_OP/huogewos.py" />
+        <option value="$PROJECT_DIR$/selenium_OP/main.py" />
+        <option value="$PROJECT_DIR$/selenium_OP/test_case1.py" />
+        <option value="$PROJECT_DIR$/selenium_login_wewoerk/index.py" />
+        <option value="$PROJECT_DIR$/selenium_login_wewoerk/login.py" />
+        <option value="$PROJECT_DIR$/selenium_login_wewoerk/test_registrt.py" />
+        <option value="$PROJECT_DIR$/selenium_wekwork_mian/page/main.py" />
+        <option value="$PROJECT_DIR$/selenium_wekwork_mian/test_case/test_add_member.py" />
+        <option value="$PROJECT_DIR$/selenium_login_wewoerk/register.py" />
+        <option value="$PROJECT_DIR$/selenium_winwork_main_test/page/maim.py" />
+        <option value="$PROJECT_DIR$/selenium_wekwork_mian/page/add_member.py" />
+        <option value="$PROJECT_DIR$/selenium_winwork_main_test/add_member.py" />
+        <option value="$PROJECT_DIR$/selenium_winwork_main_test/page/contacts_page.py" />
+        <option value="$PROJECT_DIR$/selenium_winwork_main_test/page/add_member.py" />
+        <option value="$PROJECT_DIR$/selenium_winwork_main_test/test_case/test_addmember.py" />
+        <option value="$PROJECT_DIR$/selenium_winwork_main_test/page/base_page.py" />
+        <option value="$PROJECT_DIR$/selenium_winwork_main_test/page/main.py" />
+        <option value="$PROJECT_DIR$/appium_test/appium_demo.py" />
+        <option value="$PROJECT_DIR$/test/trafficlight.py" />
+        <option value="$PROJECT_DIR$/app_test/first_test.py" />
+        <option value="$PROJECT_DIR$/app_test/test_search.py" />
+        <option value="$PROJECT_DIR$/app_test/test_contact.py" />
+        <option value="$PROJECT_DIR$/app_test/page/base_page.py" />
+        <option value="$PROJECT_DIR$/app_test/page/contact_add.py" />
+        <option value="$PROJECT_DIR$/app_test/page/member_invit.py" />
+        <option value="$PROJECT_DIR$/app_test/page/main.py" />
+        <option value="$PROJECT_DIR$/app_test/page/addresslist_page.py" />
+        <option value="$PROJECT_DIR$/app_test/page/app.py" />
+        <option value="$PROJECT_DIR$/app_test/test_contact1.py" />
+        <option value="$PROJECT_DIR$/UI自动化测试框架/page/base_oage.py" />
+        <option value="$PROJECT_DIR$/UI自动化测试框架/page/base_page.py" />
+        <option value="$PROJECT_DIR$/UI自动化测试框架/page/app.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="208" />
+    <option name="y" value="162" />
+    <option name="width" value="1718" />
+    <option name="height" value="1427" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="huoge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoge" type="462c0819:PsiDirectoryNode" />
+              <item name="app_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoge" type="462c0819:PsiDirectoryNode" />
+              <item name="app_test" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoge" type="462c0819:PsiDirectoryNode" />
+              <item name="appium_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huoge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huoge" type="462c0819:PsiDirectoryNode" />
+              <item name="xueqiuwork" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UI自动化测试框架" />
+    <property name="nodejs.jest.jest_package" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\ningmeng35\huoge\selenium_winwork_main_test\page" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\ningmeng35\huoge\selenium_wekwork_mian\test_case" />
+      <recent name="D:\PycharmProjects\ningmeng35\huoge\selenium_wekwork_mian\page" />
+      <recent name="D:\PycharmProjects\ningmeng35\huoge" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_contact1.TestContact.test_addcontact">
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="huoge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\PycharmProjects\ningmeng35\huoge\ven\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_selenium_work/test_huogewozi.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for app_test.test_search.TestXueQiu" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="huoge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\PycharmProjects\ningmeng35\huoge\ven\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;app_test.test_search.TestXueQiu&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for app_test.test_search.TestXueQiu.test_search" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="huoge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\PycharmProjects\ningmeng35\huoge\ven\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;app_test.test_search.TestXueQiu.test_search&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_contact1.TestContact.test_addcontact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="huoge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\PycharmProjects\ningmeng35\huoge\ven\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_contact1.TestContact.test_addcontact&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_search.TestXueQiu.test_search" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="huoge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\PycharmProjects\ningmeng35\huoge\ven\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_search.TestXueQiu.test_search&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for " type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="huoge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\PycharmProjects\ningmeng35\huoge\ven\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="huoge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\PycharmProjects\ningmeng35\huoge\ven\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/app_test/test_contact.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_huogewozi.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="huoge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\PycharmProjects\ningmeng35\huoge\ven\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_selenium_work/test_huogewozi.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_wait.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="huoge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\PycharmProjects\ningmeng35\huoge\ven\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_selenium_work/test_wait.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_windows.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="huoge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\PycharmProjects\ningmeng35\huoge\ven\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_for_windows/test_windows.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest in test_windows.py" />
+      <item itemvalue="Python tests.pytest for " />
+      <item itemvalue="Python tests.pytest in test_huogewozi.py" />
+      <item itemvalue="Python tests.pytest in test_wait.py" />
+      <item itemvalue="Python tests.pytest for app_test.test_search.TestXueQiu.test_search" />
+      <item itemvalue="Python tests.pytest for app_test.test_search.TestXueQiu" />
+      <item itemvalue="Python tests.pytest for test_search.TestXueQiu.test_search" />
+      <item itemvalue="Python tests.pytest in test_contact.py" />
+      <item itemvalue="Python tests.pytest for test_contact1.TestContact.test_addcontact" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_contact1.TestContact.test_addcontact" />
+        <item itemvalue="Python tests.pytest in test_contact.py" />
+        <item itemvalue="Python tests.pytest for test_search.TestXueQiu.test_search" />
+        <item itemvalue="Python tests.pytest for app_test.test_search.TestXueQiu.test_search" />
+        <item itemvalue="Python tests.pytest for app_test.test_search.TestXueQiu" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e57776aa-ddfb-434a-af21-da1f1e6a34eb" name="Default Changelist" comment="" />
+      <created>1633524733530</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633524733530</updated>
+      <workItem from="1633524739724" duration="4942000" />
+      <workItem from="1633667477719" duration="706000" />
+      <workItem from="1633675475547" duration="5297000" />
+      <workItem from="1633704094343" duration="4297000" />
+      <workItem from="1633747038553" duration="765000" />
+      <workItem from="1633753458554" duration="5147000" />
+      <workItem from="1633848907542" duration="2578000" />
+      <workItem from="1633880023630" duration="1388000" />
+      <workItem from="1633881883881" duration="735000" />
+      <workItem from="1633926134116" duration="4386000" />
+      <workItem from="1633943060008" duration="269000" />
+      <workItem from="1633943346864" duration="24000" />
+      <workItem from="1633943380857" duration="3289000" />
+      <workItem from="1633963157693" duration="4298000" />
+      <workItem from="1634004560629" duration="1141000" />
+      <workItem from="1634005724269" duration="11331000" />
+      <workItem from="1634050418479" duration="885000" />
+      <workItem from="1634086388613" duration="2304000" />
+      <workItem from="1634095977245" duration="164000" />
+      <workItem from="1634096153587" duration="793000" />
+      <workItem from="1634099007522" duration="144000" />
+      <workItem from="1634099300057" duration="682000" />
+      <workItem from="1634100099531" duration="11122000" />
+      <workItem from="1634122847236" duration="288000" />
+      <workItem from="1634137556555" duration="3656000" />
+      <workItem from="1634175658773" duration="17265000" />
+      <workItem from="1634225546910" duration="1248000" />
+      <workItem from="1634265342308" duration="2223000" />
+      <workItem from="1634365228731" duration="708000" />
+      <workItem from="1634460509295" duration="2639000" />
+      <workItem from="1634532291425" duration="598000" />
+      <workItem from="1634564493933" duration="1192000" />
+      <workItem from="1634606834458" duration="3053000" />
+      <workItem from="1634654751635" duration="1236000" />
+      <workItem from="1634704436869" duration="1327000" />
+      <workItem from="1634736219588" duration="4431000" />
+      <workItem from="1634782945522" duration="4536000" />
+      <workItem from="1634830015063" duration="3978000" />
+      <workItem from="1634872073693" duration="1087000" />
+      <workItem from="1635082177978" duration="1875000" />
+      <workItem from="1635129654232" duration="9999000" />
+      <workItem from="1635167168882" duration="3793000" />
+      <workItem from="1635175807844" duration="1226000" />
+    </task>
+    <task id="LOCAL-00001" summary="实现对driver的封装，并封装find_element的方法">
+      <created>1634185743970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634185743970</updated>
+    </task>
+    <task id="LOCAL-00002" summary="完成对通讯登录添加元素的断言">
+      <created>1634210535150</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634210535150</updated>
+    </task>
+    <task id="LOCAL-00003" summary="对通讯录人员进行遍历">
+      <created>1634225660404</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634225660404</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_first_test_py - 2021.10.20 at 22h 31m 29s.xml">
+      <configuration name="pytest in first_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_first_test_TestXueQiu_test_search - 2021.10.20 at 22h 31m 41s.xml">
+      <configuration name="pytest for first_test.TestXueQiu.test_search" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_first_test_TestXueQiu - 2021.10.20 at 22h 32m 13s.xml">
+      <configuration name="pytest for first_test.TestXueQiu" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_first_test_TestXueQiu_test_search - 2021.10.20 at 22h 33m 35s.xml">
+      <configuration name="pytest for first_test.TestXueQiu.test_search" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_first_test_TestXueQiu_test_search - 2021.10.20 at 22h 34m 14s.xml">
+      <configuration name="pytest for first_test.TestXueQiu.test_search" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_search_TestXueQiu_test_search - 2021.10.21 at 11h 08m 02s.xml">
+      <configuration name="pytest for test_search.TestXueQiu.test_search" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_contact_py - 2021.10.22 at 00h 25m 40s.xml">
+      <configuration name="pytest in test_contact.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_contact_py - 2021.10.22 at 00h 25m 44s.xml">
+      <configuration name="pytest in test_contact.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_contact1_TestContact_test_addcontact - 2021.10.25 at 21h 22m 07s.xml">
+      <configuration name="pytest for test_contact1.TestContact.test_addcontact" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_contact1_TestContact_test_addcontact - 2021.10.25 at 21h 23m 00s.xml">
+      <configuration name="pytest for test_contact1.TestContact.test_addcontact" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="133045000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="139" y="108" width="1145" height="951" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64713067" visible="true" weight="0.26126954" />
+      <window_info id="Structure" order="1" sideWeight="0.35286936" side_tool="true" visible="true" weight="0.26126954" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38273194" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39561856" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32860824" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.20572917" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.5885417" />
+      <window_info anchor="bottom" id="Eval Reset" order="13" weight="0.2371134" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32965517" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="实现对driver的封装，并封装find_element的方法" />
+    <MESSAGE value="完成对通讯登录添加元素的断言" />
+    <MESSAGE value="对通讯录人员进行遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="对通讯录人员进行遍历" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/selenium/webdriver/chrome/service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="235" column="29" lean-forward="true" selection-start-line="235" selection-start-column="29" selection-end-line="235" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/selenium/webdriver/chrome/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_selenium_work/test_wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="10" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_OP/cookies.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Python39/Lib/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Python39/Lib/string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Python39/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="227" column="40" lean-forward="true" selection-start-line="227" selection-start-column="40" selection-end-line="227" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/selenium/webdriver/remote/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/selenium/webdriver/remote/remote_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="371" selection-start-line="371" selection-end-line="371" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_wekwork_mian/page/index.py" />
+    <entry file="file://$PROJECT_DIR$/selenium_login_wewoerk/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_wekwork_mian/test_case/test_registrt.py" />
+    <entry file="file://$PROJECT_DIR$/selenium_login_wewoerk/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_login_wewoerk/test_registrt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_wekwork_mian/page/add_member.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/trafficlight.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="297" column="44" selection-start-line="297" selection-start-column="44" selection-end-line="297" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_winwork_main_test/page/contacts_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_login_wewoerk/register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_winwork_main_test/test_case/test_addmember.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_test/test_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="47" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/appium/webdriver/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_test/test_contact1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Python39/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1104630702/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="262" column="11" selection-start-line="262" selection-start-column="6" selection-end-line="262" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/appium/webdriver/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_test/test_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_test/page/contact_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI自动化测试框架/page/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_test/page/addresslist_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_test/page/member_invit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/appium/webdriver/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4278">
+          <caret line="229" column="10" selection-start-line="229" selection-start-column="10" selection-end-line="229" selection-end-column="10" />
+          <folding>
+            <element signature="e#658#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/appium/webdriver/extensions/android/activities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1817">
+          <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI自动化测试框架/page/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_OP/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_OP/test_case1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_OP/huogewos.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_wekwork_mian/page/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_wekwork_mian/test_case/test_add_member.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_winwork_main_test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_winwork_main_test/page/add_member.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/test_001.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appium_test/appium_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_winwork_main_test/page/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_winwork_main_test/page/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="e#86#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_test/page/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_test/page/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_test/page/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
