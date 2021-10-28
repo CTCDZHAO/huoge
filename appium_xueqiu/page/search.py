@@ -7,7 +7,7 @@ from appium_xueqiu.page.base_page import BasePage
 class Search(BasePage):
     def search(self,name):
         # 改造为yaml数据驱动的操作步骤
-        self.steps("../page/search1.yaml")
+        self.steps("../page/search.yaml","search")
 
 
         #send alibaba
@@ -30,10 +30,10 @@ class Search(BasePage):
         #                 value = step["value"]
         #                 elemet.send_keys(value)
     def add(self,name):
-        self.steps("../page/search4.yaml")
+        self.steps("../page/search.yaml","add")
     def is_choose(self,name):
         # 改造为yaml数据驱动的操作步骤
-        return self.steps("../page/search1.yaml")
+        return self.steps("../page/search.yaml","is_choose")
 
         # eles=self.finds(MobileBy.XPATH,f"//*[contains(@resource-id,'stock_item_container')]//*[@text='{name}']/../..//*[@text='已添加']")#搜已添加
         # return len(eles) > 0#如果大于0则已添加存在
@@ -56,5 +56,5 @@ class Search(BasePage):
         #                  eles=self.finds(step["by"],step["locator"])
         #                  return len(eles) >0
     def reset(self,name):
-        return self.steps("../page/search3.yaml")
+        return self.steps("../page/search.yaml","reset")
 

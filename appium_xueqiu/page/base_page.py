@@ -42,9 +42,9 @@ class BasePage:
             element_text=self._driver.find_element(locator,value).text
         return element_text
 
-    def steps(self,path):
+    def steps(self,path,name):
         with open(path, encoding="utf-8") as f:
-            steps = yaml.safe_load(f)
+            steps = yaml.safe_load(f)[name]
             for step in steps:
                 elemet = None
                 if "action" in step.keys():
