@@ -18,3 +18,9 @@ def test_yaml_load():
                 if "send" == action:
                     value=step["value"]
                     print(f"send{value}")
+def test_replace():
+    _parame={"name":"112344"}
+    str="asfsafasfds ${name} dkldf"
+    for key,value in _parame.items():
+        str=str.replace(f'${{{key}}}',value)
+    print(str)

@@ -25,7 +25,7 @@ class App(BasePage):
             self._driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
          else:
                self._driver.start_activity(self._package,self._activity)
-         self._driver.implicitly_wait(10)
+         self._driver.implicitly_wait(3)
          return self
       def main(self) -> Main:
             return Main(self._driver)

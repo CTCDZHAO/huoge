@@ -7,9 +7,11 @@ from appium_xueqiu.page.market import Market
 
 
 class Main(BasePage):
-    def go_to_market(self,):
+    def goto_market(self,):
         #改造为yaml数据驱动的操作步骤
+        self.set_implicitly(10)
         self.steps("../page/main.yaml")
+        self.set_implicitly(3)
         #click
         # self.find(MobileBy.XPATH,"//*[@resource-id='android:id/tabs']//*[@text='行情']").click()
 
@@ -28,5 +30,5 @@ class Main(BasePage):
         #                 print(f"send{value}")
         # print(step)
         return Market(self._driver)
-if __name__ == '__main__':
-    Main().go_to_market()
+# if __name__ == '__main__':
+#     Main().go_to_market()
