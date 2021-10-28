@@ -19,7 +19,7 @@ class App(BasePage):
             caps["appPackage"] = self._package
             caps["appActivity"] = self._activity
             caps['noReset'] = "true"
-            caps['udid']=yaml.safe_load(open("../page/conifiguration.yaml"))['caps']['udid']
+            # caps['udid']=yaml.safe_load(open("../page/conifiguration.yaml"))['caps']['udid']
             caps['skipServerInstallation'] = True
             caps['skipDeviceInitialization'] = True
             self._driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
