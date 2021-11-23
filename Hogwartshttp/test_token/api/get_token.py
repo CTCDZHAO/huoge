@@ -10,7 +10,11 @@ class GetToken(BaseApi):
     _corp_secret="a-_vouMKTXFxX3G4yEWn8lsBNP2Cmq21oZWR24SFtJ0"
     def template(self):
         with open('../api/get_token.yaml') as f:
-            re=Template(f.read()).substitute(corpid=self._corpid,corpsecret=self._corp_secret)
+            data={
+                "corpid" : "wwe3077ee291d6a898",
+            "corpsecret" : "a-_vouMKTXFxX3G4yEWn8lsBNP2Cmq21oZWR24SFtJ0"
+            }
+            re=Template(f.read()).substitute(data)
             return yaml.safe_load(re)
     def get_token(self):
         req=self.template()
