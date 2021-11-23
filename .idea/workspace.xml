@@ -2,116 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e57776aa-ddfb-434a-af21-da1f1e6a34eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Hogwartshttp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/api/address.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/api/base_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/api/tag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/api/update.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/api/wework.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/test_partmant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/test_requests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/testcase/test_address.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hogwartshttp/test_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hogwartshttp/test_token/api/base_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hogwartshttp/test_token/api/get_token.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hogwartshttp/test_token/api/get_token.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hogwartshttp/test_token/test_cases/test_get_token.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/page/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/page/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/page/base_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/page/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/page/main.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/page/market.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/page/search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/page/search.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/page/wrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/data/behaviors.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/data/behaviors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/data/categories.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/data/categories.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/data/packages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/data/suites.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/data/suites.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/data/timeline.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/export/influxDbData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/export/mail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/export/prometheusData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/history/categories-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/history/duration-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/history/history-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/history/history.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/history/retry-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/plugins/behaviors/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/plugins/packages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/plugins/screen-diff/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/plugins/screen-diff/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/behaviors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/categories-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/categories.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/duration-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/duration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/environment.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/executors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/history-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/retry-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/severity.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/status-chart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/suites.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/result/22581ec0-cb10-418a-a221-36c10469ff27-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/result/28b3be6a-41ed-43b2-9472-770aaef2f499-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/result/66a07ed4-d2b3-4435-a3e4-2fbd9c914a40-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/result/c3473616-db5a-4a9e-bf67-0d977ff1a224-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/result/c5ff1342-302b-40d0-96ba-2521afe0ffeb-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/result/d292019f-1e0a-42f0-ba1f-4de40a618526-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/seleniumgrid/node1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/seleniumgrid/node2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/seleniumgrid/selenium-server-standalone-3.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/test_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/test_search.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/test_stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/test_vedio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/test_wrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/test_yaml_load.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/try.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/page/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/test_case/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/test_case/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/test_case/test_vedio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/test_case/try.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mitmproxycesi/maplocal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium_grid/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium_grid/test_grid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_requests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_requests/demo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_requests/env_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_requests/test_rqquests1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/huoge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/huoge.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_xueqiu/page/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_xueqiu/page/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_xueqiu/page/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_xueqiu/page/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_xueqiu/page/market.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_xueqiu/page/market.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_xueqiu/page/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_xueqiu/page/search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_xueqiu/page/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_xueqiu/page/wrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_xueqiu/test_case/test_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_xueqiu/test_case/test_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ven/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/ven/pip-selfcheck.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hogwartshttp/test_token/api/get_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hogwartshttp/test_token/api/get_token.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hogwartshttp/test_token/api/get_token.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Hogwartshttp/test_token/api/get_token.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -544,7 +436,7 @@
       <workItem from="1636947218949" duration="258000" />
       <workItem from="1637562622750" duration="6270000" />
       <workItem from="1637589781250" duration="773000" />
-      <workItem from="1637630742102" duration="254000" />
+      <workItem from="1637630742102" duration="612000" />
     </task>
     <task id="LOCAL-00001" summary="实现对driver的封装，并封装find_element的方法">
       <created>1634185743970</created>
@@ -631,7 +523,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213225000" />
+    <option name="totallyTimeSpent" value="213583000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
