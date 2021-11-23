@@ -2,21 +2,116 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e57776aa-ddfb-434a-af21-da1f1e6a34eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/test_case/test_search.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/test_case/test_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hogwartshttp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/api/address.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/api/base_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/api/tag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/api/update.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/api/wework.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/test_partmant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/test_requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hogwartshttp/request_wework/testcase/test_address.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hogwartshttp/test_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hogwartshttp/test_token/api/base_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hogwartshttp/test_token/api/get_token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hogwartshttp/test_token/api/get_token.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hogwartshttp/test_token/test_cases/test_get_token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/page/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/page/base_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/page/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/page/main.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/page/market.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/page/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/page/search.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/page/wrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/data/behaviors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/data/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/data/categories.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/data/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/data/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/data/suites.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/data/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/data/timeline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/export/influxDbData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/export/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/export/prometheusData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/history/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/history/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/history/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/history/history.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/history/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/plugins/behaviors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/plugins/packages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/plugins/screen-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/plugins/screen-diff/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/duration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/executors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/severity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/status-chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/allure-report/widgets/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/result/22581ec0-cb10-418a-a221-36c10469ff27-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/result/28b3be6a-41ed-43b2-9472-770aaef2f499-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/result/66a07ed4-d2b3-4435-a3e4-2fbd9c914a40-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/result/c3473616-db5a-4a9e-bf67-0d977ff1a224-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/result/c5ff1342-302b-40d0-96ba-2521afe0ffeb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/result/d292019f-1e0a-42f0-ba1f-4de40a618526-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/seleniumgrid/node1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/seleniumgrid/node2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/seleniumgrid/selenium-server-standalone-3.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/test_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/test_search.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/test_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/test_vedio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/test_wrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/test_yaml_load.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_grid/test_case/try.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_xueqiu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_xueqiu/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_xueqiu/page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_xueqiu/test_case/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_xueqiu/test_case/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_xueqiu/test_case/test_vedio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_xueqiu/test_case/try.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mitmproxycesi/maplocal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_grid/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_grid/test_grid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_requests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_requests/demo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_requests/env_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_requests/test_rqquests1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/huoge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/huoge.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appium_xueqiu/page/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_xueqiu/page/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appium_xueqiu/page/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_xueqiu/page/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_xueqiu/page/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_xueqiu/page/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_xueqiu/page/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/appium_xueqiu/page/main.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appium_xueqiu/page/market.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_xueqiu/page/market.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appium_xueqiu/page/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_xueqiu/page/search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_xueqiu/page/search.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/appium_xueqiu/page/search.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_xueqiu/page/search1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_xueqiu/page/search2.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_xueqiu/page/search3.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_xueqiu/page/search4.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appium_xueqiu/page/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_xueqiu/page/wrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appium_xueqiu/test_case/test_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_xueqiu/test_case/test_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_xueqiu/test_case/test_yaml_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_xueqiu/test_case/test_yaml_load.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ven/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/ven/pip-selfcheck.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,9 +127,12 @@
     <SUITE FILE_PATH="coverage/huoge$pytest_for_test_search_TestXueQiu_test_search.coverage" NAME="pytest for test_search.TestXueQiu.test_search Coverage Results" MODIFIED="1634785642504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app_test" />
     <SUITE FILE_PATH="coverage/huoge$test_calc.coverage" NAME="test_calc Coverage Results" MODIFIED="1633706875012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/huoge$pytest_for_test_stack_test_atack.coverage" NAME="pytest for test_stack.test_atack Coverage Results" MODIFIED="1635418823852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_xueqiu/test_case" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_for_test_xueqiu_test_draw.coverage" NAME="pytest for test_xueqiu.test_draw Coverage Results" MODIFIED="1636540822728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/performance_xueqiu" />
     <SUITE FILE_PATH="coverage/huoge$test_huogewozi.coverage" NAME="test_huogewozi Coverage Results" MODIFIED="1633927849116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_selenium_work" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_for_test_xueqiu_test_xueaiu.coverage" NAME="pytest for test_xueqiu.test_xueaiu Coverage Results" MODIFIED="1636438116529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/performance_xueqiu" />
     <SUITE FILE_PATH="coverage/huoge$pytest_for_test_add_member_TestAddMember_test_ademember.coverage" NAME="pytest for test_add_member.TestAddMember.test_ademember Coverage Results" MODIFIED="1634140306408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_wekwork_mian/test_case" />
     <SUITE FILE_PATH="coverage/huoge$pytest_in_test_contact_py.coverage" NAME="pytest in test_contact.py Coverage Results" MODIFIED="1634833541937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app_test" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_for_test_search_TestSearch_test_search__1_.coverage" NAME="pytest for test_search.TestSearch.test_search (1) Coverage Results" MODIFIED="1636423138755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_grid/test_case" />
     <SUITE FILE_PATH="coverage/huoge$test_windows.coverage" NAME="test_windows Coverage Results" MODIFIED="1634005636271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_windows" />
     <SUITE FILE_PATH="coverage/huoge$test_fixture1.coverage" NAME="test_fixture1 Coverage Results" MODIFIED="1633850393139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/huoge$handle_yaml.coverage" NAME="handle_yaml Coverage Results" MODIFIED="1633704747391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/handle" />
@@ -44,21 +142,28 @@
     <SUITE FILE_PATH="coverage/huoge$pytest_for_test_registrt_TestRegister_test_register.coverage" NAME="pytest for test_registrt.TestRegister.test_register Coverage Results" MODIFIED="1634116790694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_login_wewoerk" />
     <SUITE FILE_PATH="coverage/huoge$pytest_for_test_contact1_TestContact_test_addcontact.coverage" NAME="pytest for test_contact1.TestContact.test_addcontact Coverage Results" MODIFIED="1635168136169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app_test" />
     <SUITE FILE_PATH="coverage/huoge$pytest_for_test_case1_TestCaseone.coverage" NAME="pytest for test_case1.TestCaseone Coverage Results" MODIFIED="1634100108141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_OP" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_for_test_grid_TestGrid_test_grid.coverage" NAME="pytest for test_grid.TestGrid.test_grid Coverage Results" MODIFIED="1636434182172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_grid" />
     <SUITE FILE_PATH="coverage/huoge$test_woeed.coverage" NAME="test_woeed Coverage Results" MODIFIED="1633938093714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/huoge$pytest_for_first_test_TestXueQiu.coverage" NAME="pytest for first_test.TestXueQiu Coverage Results" MODIFIED="1634740332613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app_test" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_for_test_xueqiu_test_xueqiu.coverage" NAME="pytest for test_xueqiu.test_xueqiu Coverage Results" MODIFIED="1636446338408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/performance_xueqiu" />
     <SUITE FILE_PATH="coverage/huoge$test_selenium.coverage" NAME="test_selenium Coverage Results" MODIFIED="1633882378516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_selenium" />
     <SUITE FILE_PATH="coverage/huoge$pytest_in_first_test_py.coverage" NAME="pytest in first_test.py Coverage Results" MODIFIED="1634740288181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app_test" />
     <SUITE FILE_PATH="coverage/huoge$pytest_for_test_wrapper_test_wrapper.coverage" NAME="pytest for test_wrapper.test_wrapper Coverage Results" MODIFIED="1635331993684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_xueqiu/test_case" />
     <SUITE FILE_PATH="coverage/huoge$pytest_for_test_case1_TestCaseone_test_demo.coverage" NAME="pytest for test_case1.TestCaseone.test_demo Coverage Results" MODIFIED="1634100135682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_OP" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_for_test_vedio_test_vedio.coverage" NAME="pytest for test_vedio.test_vedio Coverage Results" MODIFIED="1635670723341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_xueqiu/test_case" />
     <SUITE FILE_PATH="coverage/huoge$test_yield.coverage" NAME="test_yield Coverage Results" MODIFIED="1633755450564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/huoge$pytest_in_test_wrapper_py.coverage" NAME="pytest in test_wrapper.py Coverage Results" MODIFIED="1635331858357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_xueqiu/test_case" />
-    <SUITE FILE_PATH="coverage/huoge$pytest_for_test_search_TestSearch_test_search.coverage" NAME="pytest for test_search.TestSearch.test_search Coverage Results" MODIFIED="1635421161540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_xueqiu/test_case" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_for_test_search_TestSearch_test_search.coverage" NAME="pytest for test_search.TestSearch.test_search Coverage Results" MODIFIED="1636437958580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_xueqiu/test_case" />
     <SUITE FILE_PATH="coverage/huoge$test_fixture.coverage" NAME="test_fixture Coverage Results" MODIFIED="1633754039834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/huoge$try.coverage" NAME="try Coverage Results" MODIFIED="1635670855849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_xueqiu/test_case" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_in_test_rqquests1_py.coverage" NAME="pytest in test_rqquests1.py Coverage Results" MODIFIED="1637566344679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_requests" />
     <SUITE FILE_PATH="coverage/huoge$pytest_in_test_huogewozi_py.coverage" NAME="pytest in test_huogewozi.py Coverage Results" MODIFIED="1633947143711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_for_test_xueqiu_test_xue.coverage" NAME="pytest for test_xueqiu.test_xue Coverage Results" MODIFIED="1636446364274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/performance_xueqiu" />
     <SUITE FILE_PATH="coverage/huoge$pytest_in_test_fixture_py.coverage" NAME="pytest in test_fixture.py Coverage Results" MODIFIED="1633850405780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/huoge$pytest_in_test_case1_py.coverage" NAME="pytest in test_case1.py Coverage Results" MODIFIED="1634030132662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_OP" />
     <SUITE FILE_PATH="coverage/huoge$test_wait.coverage" NAME="test_wait Coverage Results" MODIFIED="1633948478348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_selenium_work" />
     <SUITE FILE_PATH="coverage/huoge$pytest_for_test_yaml_load_test_replace.coverage" NAME="pytest for test_yaml_load.test_replace Coverage Results" MODIFIED="1635417367675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_xueqiu/test_case" />
+    <SUITE FILE_PATH="coverage/huoge$pytest_in_test_xueqiu_py.coverage" NAME="pytest in test_xueqiu.py Coverage Results" MODIFIED="1636434079719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/performance_xueqiu" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -77,49 +182,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appium_xueqiu/test_case/test_yaml_load.py">
+        <entry file="file://$PROJECT_DIR$/UI自动化测试框架/page/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/market.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state>
+              <caret selection-end-line="6" selection-end-column="26" />
               <folding>
-                <element signature="e#0#53#0" expanded="true" />
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appium_xueqiu/test_case/test_stack.py">
+        <entry file="file://$PROJECT_DIR$/UI自动化测试框架/page/base_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="253">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/main.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="4" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/HogwartsSDET12-master/appium_wework/testcases/run.sh">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/appium_xueqiu/test_case/test_search.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HogwartsSDET12-master/appium_wework/testcases/run_cases.sh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HogwartsSDET12-master/appium_wework/testcases/test_contact1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="46">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -128,10 +228,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/base_page.py">
+        <entry file="file://$PROJECT_DIR$/HogwartsSDET12-master/appium_wework/page/addresslist_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="58" column="16" lean-forward="true" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+            <state relative-caret-position="138">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HogwartsSDET12-master/appium_wework/page/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HogwartsSDET12-master/appium_wework/page/base_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -140,39 +263,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/wrapper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/HogwartsSDET12-master/appium_wework/testcases/test_search.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/search.yaml">
+        <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/appium/webdriver/webdriver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appium_xueqiu/test_case/test_search.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/search.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-870">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="7912">
+              <caret line="387" column="8" selection-start-line="387" selection-start-column="8" selection-end-line="387" selection-end-column="8" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#658#669#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -204,26 +305,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/selenium_file_alter/test_file.py" />
-        <option value="$PROJECT_DIR$/selenium_OP/huogewos.py" />
-        <option value="$PROJECT_DIR$/selenium_OP/main.py" />
-        <option value="$PROJECT_DIR$/selenium_OP/test_case1.py" />
-        <option value="$PROJECT_DIR$/selenium_login_wewoerk/index.py" />
-        <option value="$PROJECT_DIR$/selenium_login_wewoerk/login.py" />
-        <option value="$PROJECT_DIR$/selenium_login_wewoerk/test_registrt.py" />
-        <option value="$PROJECT_DIR$/selenium_wekwork_mian/page/main.py" />
-        <option value="$PROJECT_DIR$/selenium_wekwork_mian/test_case/test_add_member.py" />
-        <option value="$PROJECT_DIR$/selenium_login_wewoerk/register.py" />
-        <option value="$PROJECT_DIR$/selenium_winwork_main_test/page/maim.py" />
-        <option value="$PROJECT_DIR$/selenium_wekwork_mian/page/add_member.py" />
-        <option value="$PROJECT_DIR$/selenium_winwork_main_test/add_member.py" />
-        <option value="$PROJECT_DIR$/selenium_winwork_main_test/page/contacts_page.py" />
-        <option value="$PROJECT_DIR$/selenium_winwork_main_test/page/add_member.py" />
-        <option value="$PROJECT_DIR$/selenium_winwork_main_test/test_case/test_addmember.py" />
-        <option value="$PROJECT_DIR$/selenium_winwork_main_test/page/base_page.py" />
-        <option value="$PROJECT_DIR$/selenium_winwork_main_test/page/main.py" />
-        <option value="$PROJECT_DIR$/appium_test/appium_demo.py" />
-        <option value="$PROJECT_DIR$/test/trafficlight.py" />
         <option value="$PROJECT_DIR$/app_test/first_test.py" />
         <option value="$PROJECT_DIR$/app_test/test_search.py" />
         <option value="$PROJECT_DIR$/app_test/test_contact.py" />
@@ -239,22 +320,42 @@
         <option value="$PROJECT_DIR$/UI自动化测试框架/page/app.py" />
         <option value="$PROJECT_DIR$/appium_xueqiu/test_case/test-search.py" />
         <option value="$PROJECT_DIR$/appium_xueqiu/wrapper.py" />
-        <option value="$PROJECT_DIR$/appium_xueqiu/page/wrapper.py" />
         <option value="$PROJECT_DIR$/appium_xueqiu/test_case/test_wrapper.py" />
-        <option value="$PROJECT_DIR$/appium_xueqiu/page/market.py" />
         <option value="$PROJECT_DIR$/appium_xueqiu/page/search2.yaml" />
         <option value="$PROJECT_DIR$/appium_xueqiu/page/search4.yaml" />
         <option value="$PROJECT_DIR$/appium_xueqiu/page/search3.yaml" />
         <option value="$PROJECT_DIR$/appium_xueqiu/test_case/testsearch.yaml" />
-        <option value="$PROJECT_DIR$/appium_xueqiu/page/app.py" />
         <option value="$PROJECT_DIR$/appium_xueqiu/test_case/test_yaml_load.py" />
         <option value="$PROJECT_DIR$/appium_xueqiu/test_case/test_stack.py" />
-        <option value="$PROJECT_DIR$/appium_xueqiu/page/search.py" />
         <option value="$PROJECT_DIR$/appium_xueqiu/page/main.py" />
         <option value="$PROJECT_DIR$/appium_xueqiu/page/main.yaml" />
         <option value="$PROJECT_DIR$/appium_xueqiu/page/search.yaml" />
-        <option value="$PROJECT_DIR$/appium_xueqiu/test_case/test_search.py" />
+        <option value="$PROJECT_DIR$/appium_xueqiu/page/market.py" />
+        <option value="$PROJECT_DIR$/appium_xueqiu/page/search.py" />
         <option value="$PROJECT_DIR$/appium_xueqiu/page/base_page.py" />
+        <option value="$PROJECT_DIR$/appium_xueqiu/page/wrapper.py" />
+        <option value="$PROJECT_DIR$/appium_xueqiu/config.py" />
+        <option value="$PROJECT_DIR$/appium_xueqiu/__init__.py" />
+        <option value="$PROJECT_DIR$/appium_xueqiu/test_case/__init__.py" />
+        <option value="$PROJECT_DIR$/appium_xueqiu/page/__init__.py" />
+        <option value="$PROJECT_DIR$/appium_xueqiu/test_case/test_search.yaml" />
+        <option value="$PROJECT_DIR$/appium_xueqiu/test_case/conftest.py" />
+        <option value="$PROJECT_DIR$/appium_xueqiu/test_case/test_search.py" />
+        <option value="$PROJECT_DIR$/appium_xueqiu/test_case/try.py" />
+        <option value="$PROJECT_DIR$/appium_xueqiu/test_case/test_vedio.py" />
+        <option value="$PROJECT_DIR$/selenium_grid/test_grid.py" />
+        <option value="$PROJECT_DIR$/appium_xueqiu/test_case/seleniumgrid/node1.json" />
+        <option value="$PROJECT_DIR$/appium_xueqiu/page/app.py" />
+        <option value="$PROJECT_DIR$/appium_xueqiu/test_case/seleniumgrid/node2.json" />
+        <option value="$PROJECT_DIR$/appium_grid/readme.md" />
+        <option value="$PROJECT_DIR$/appium_grid/page/app.py" />
+        <option value="$PROJECT_DIR$/appium_grid/test_case/run.sh" />
+        <option value="D:/appcrawler/demo.yml" />
+        <option value="$PROJECT_DIR$/performance_xueqiu/test_xueqiu.py" />
+        <option value="$PROJECT_DIR$/mitmproxycesi/maplocal.py" />
+        <option value="$PROJECT_DIR$/test_requests/demo.json" />
+        <option value="$PROJECT_DIR$/test_requests/test_rqquests1.py" />
+        <option value="$PROJECT_DIR$/test_requests/env_demo.py" />
       </list>
     </option>
   </component>
@@ -264,9 +365,10 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1137" />
-    <option name="width" value="1113" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="39" />
+    <option name="y" value="6" />
+    <option name="width" value="1140" />
     <option name="height" value="1350" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -285,23 +387,6 @@
             <path>
               <item name="huoge" type="b2602c69:ProjectViewProjectNode" />
               <item name="huoge" type="462c0819:PsiDirectoryNode" />
-              <item name="appium_xueqiu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huoge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huoge" type="462c0819:PsiDirectoryNode" />
-              <item name="appium_xueqiu" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huoge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huoge" type="462c0819:PsiDirectoryNode" />
-              <item name="appium_xueqiu" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huoge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huoge" type="462c0819:PsiDirectoryNode" />
               <item name="xueqiuwork" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -315,23 +400,24 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HogwartsSDET12-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/performance_xueqiu" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\PycharmProjects\ningmeng35\huoge\appium_xueqiu" />
-      <recent name="D:\PycharmProjects\ningmeng35\huoge\selenium_wekwork_mian\test_case" />
-      <recent name="D:\PycharmProjects\ningmeng35\huoge\selenium_wekwork_mian\page" />
-      <recent name="D:\PycharmProjects\ningmeng35\huoge" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PycharmProjects\ningmeng35\huoge\appium_xueqiu\page" />
       <recent name="D:\PycharmProjects\ningmeng35\huoge\selenium_winwork_main_test\page" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\ningmeng35\huoge\appium_grid" />
+      <recent name="D:\PycharmProjects\ningmeng35\huoge" />
+      <recent name="D:\PycharmProjects\ningmeng35\huoge\appium_xueqiu" />
+      <recent name="D:\PycharmProjects\ningmeng35\huoge\selenium_wekwork_mian\test_case" />
+      <recent name="D:\PycharmProjects\ningmeng35\huoge\selenium_wekwork_mian\page" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -346,29 +432,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_search.TestSearch.test_search">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="huoge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium_xueqiu/page" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appium_xueqiu/page/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="js.build_tools.grunt">
       <node-interpreter value="project" />
       <envs />
@@ -399,154 +463,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_search.TestSearch.test_search" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="huoge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="D:\PycharmProjects\ningmeng35\huoge\ven\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium_xueqiu/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_search.TestSearch.test_search&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_stack.test_atack" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="huoge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="D:\PycharmProjects\ningmeng35\huoge\ven\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium_xueqiu/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_stack.test_atack&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_yaml_load.test_replace" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="huoge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="D:\PycharmProjects\ningmeng35\huoge\ven\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium_xueqiu/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_yaml_load.test_replace&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_yaml_load.test_yaml_load" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="huoge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="D:\PycharmProjects\ningmeng35\huoge\ven\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium_xueqiu/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_yaml_load.test_yaml_load&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for " type="tests" factoryName="py.test" nameIsGenerated="true">
-      <module name="huoge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="D:\PycharmProjects\ningmeng35\huoge\ven\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_huogewozi.py" type="tests" factoryName="py.test" nameIsGenerated="true">
-      <module name="huoge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="D:\PycharmProjects\ningmeng35\huoge\ven\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_selenium_work/test_huogewozi.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_wait.py" type="tests" factoryName="py.test" nameIsGenerated="true">
-      <module name="huoge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="D:\PycharmProjects\ningmeng35\huoge\ven\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_selenium_work/test_wait.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_windows.py" type="tests" factoryName="py.test" nameIsGenerated="true">
-      <module name="huoge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="D:\PycharmProjects\ningmeng35\huoge\ven\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_for_windows/test_windows.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python tests.pytest in test_windows.py" />
-      <item itemvalue="Python tests.pytest for " />
-      <item itemvalue="Python tests.pytest in test_huogewozi.py" />
-      <item itemvalue="Python tests.pytest in test_wait.py" />
-      <item itemvalue="Python tests.pytest for test_search.TestSearch.test_search" />
-      <item itemvalue="Python tests.pytest for test_yaml_load.test_yaml_load" />
-      <item itemvalue="Python tests.pytest for test_yaml_load.test_replace" />
-      <item itemvalue="Python tests.pytest for test_stack.test_atack" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python tests.pytest for test_search.TestSearch.test_search" />
-        <item itemvalue="Python tests.pytest for test_stack.test_atack" />
-        <item itemvalue="Python tests.pytest for test_yaml_load.test_replace" />
-        <item itemvalue="Python tests.pytest for test_yaml_load.test_yaml_load" />
-        <item itemvalue="Python.main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -607,7 +523,28 @@
       <workItem from="1635314756832" duration="4385000" />
       <workItem from="1635347913934" duration="3070000" />
       <workItem from="1635388215699" duration="8601000" />
-      <workItem from="1635419142192" duration="2020000" />
+      <workItem from="1635419142192" duration="3287000" />
+      <workItem from="1635476729391" duration="4918000" />
+      <workItem from="1635664011214" duration="6873000" />
+      <workItem from="1635762685663" duration="1040000" />
+      <workItem from="1635819518547" duration="5425000" />
+      <workItem from="1635828957035" duration="316000" />
+      <workItem from="1635829289037" duration="3537000" />
+      <workItem from="1635914652870" duration="599000" />
+      <workItem from="1635994118261" duration="3351000" />
+      <workItem from="1636208160982" duration="788000" />
+      <workItem from="1636267960413" duration="599000" />
+      <workItem from="1636368410931" duration="613000" />
+      <workItem from="1636387222315" duration="715000" />
+      <workItem from="1636422327123" duration="2381000" />
+      <workItem from="1636433855868" duration="2949000" />
+      <workItem from="1636446328440" duration="53000" />
+      <workItem from="1636540672925" duration="1692000" />
+      <workItem from="1636873395450" duration="3148000" />
+      <workItem from="1636947218949" duration="258000" />
+      <workItem from="1637562622750" duration="6270000" />
+      <workItem from="1637589781250" duration="773000" />
+      <workItem from="1637630742102" duration="254000" />
     </task>
     <task id="LOCAL-00001" summary="实现对driver的封装，并封装find_element的方法">
       <created>1634185743970</created>
@@ -651,43 +588,50 @@
       <option name="project" value="LOCAL" />
       <updated>1635396885243</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="参数化">
+      <created>1635421238024</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1635421238025</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_search_TestSearch_test_search - 2021.10.28 at 19h 05m 16s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_search" configurationId="tests" />
+    <history-entry file="pytest_for_test_xueqiu_test_xueqiu - 2021.11.09 at 16h 25m 39s.xml">
+      <configuration name="pytest for test_xueqiu.test_xueqiu" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch_test_search - 2021.10.28 at 19h 05m 53s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_search" configurationId="tests" />
+    <history-entry file="pytest_for_test_xueqiu_test_xue - 2021.11.09 at 16h 26m 05s.xml">
+      <configuration name="pytest for test_xueqiu.test_xue" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch_test_search - 2021.10.28 at 19h 06m 12s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_search" configurationId="tests" />
+    <history-entry file="pytest_for_test_xueqiu_test_draw - 2021.11.10 at 18h 39m 08s.xml">
+      <configuration name="pytest for test_xueqiu.test_draw" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch_test_search - 2021.10.28 at 19h 07m 27s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_search" configurationId="tests" />
+    <history-entry file="pytest_for_test_xueqiu_test_draw - 2021.11.10 at 18h 40m 23s.xml">
+      <configuration name="pytest for test_xueqiu.test_draw" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch_test_search - 2021.10.28 at 19h 11m 32s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_search" configurationId="tests" />
+    <history-entry file="pytest_in_test_rqquests1_py - 2021.11.22 at 15h 27m 01s.xml">
+      <configuration name="pytest in test_rqquests1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch_test_search - 2021.10.28 at 19h 15m 45s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_search" configurationId="tests" />
+    <history-entry file="pytest_in_test_rqquests1_py - 2021.11.22 at 15h 27m 29s.xml">
+      <configuration name="pytest in test_rqquests1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch_test_search - 2021.10.28 at 19h 17m 54s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_search" configurationId="tests" />
+    <history-entry file="pytest_in_test_rqquests1_py - 2021.11.22 at 15h 28m 27s.xml">
+      <configuration name="pytest in test_rqquests1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch_test_search - 2021.10.28 at 19h 30m 24s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_search" configurationId="tests" />
+    <history-entry file="pytest_in_test_rqquests1_py - 2021.11.22 at 15h 31m 48s.xml">
+      <configuration name="pytest in test_rqquests1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch_test_search - 2021.10.28 at 19h 32m 54s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_search" configurationId="tests" />
+    <history-entry file="pytest_in_test_rqquests1_py - 2021.11.22 at 15h 32m 01s.xml">
+      <configuration name="pytest in test_rqquests1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_search_TestSearch_test_search - 2021.10.28 at 19h 37m 15s.xml">
-      <configuration name="pytest for test_search.TestSearch.test_search" configurationId="tests" />
+    <history-entry file="pytest_in_test_rqquests1_py - 2021.11.22 at 15h 32m 25s.xml">
+      <configuration name="pytest in test_rqquests1.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165406000" />
+    <option name="totallyTimeSpent" value="213225000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,23 +643,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="758" y="0" width="742" height="900" extended-state="0" />
+    <frame x="-7" y="-7" width="1508" height="908" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.78532606" visible="true" weight="0.26608187" />
-      <window_info id="Structure" order="1" sideWeight="0.2146739" side_tool="true" visible="true" weight="0.26608187" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74871135" visible="true" weight="0.25310344" />
+      <window_info id="Structure" order="1" sideWeight="0.25128865" side_tool="true" visible="true" weight="0.25310344" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32860824" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5208333" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35695878" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.44915253" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2951031" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3015464" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32860824" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32860824" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3234536" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5014245" side_tool="true" weight="0.33984375" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4985755" weight="0.33634022" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.5885417" />
       <window_info anchor="bottom" id="Eval Reset" order="13" weight="0.2371134" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -734,331 +679,43 @@
     <MESSAGE value="对通讯录人员进行遍历" />
     <MESSAGE value="操作流程数据参数化，使用yaml保存数据" />
     <MESSAGE value="将多个步骤保存在同一个yaml，设定步骤名" />
-    <option name="LAST_COMMIT_MESSAGE" value="将多个步骤保存在同一个yaml，设定步骤名" />
+    <MESSAGE value="参数化" />
+    <option name="LAST_COMMIT_MESSAGE" value="参数化" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/appium/webdriver/webelement.py">
+    <entry file="file://$PROJECT_DIR$/appium_xueqiu/test_case/main.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://D:/Python/Python39/Lib/abc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        <state relative-caret-position="87">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_test/test_contact1.py">
+    <entry file="file://D:/Python/Python39/Lib/os.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="171">
+          <caret line="821" selection-start-line="821" selection-end-line="821" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python/Python39/Lib/logging/__init__.py">
+    <entry file="file://D:/Python/Python39/Lib/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="1306" selection-start-line="1306" selection-end-line="1306" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Python39/Lib/_collections_abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appium_xueqiu/test_case/allure-report/index.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/appium/webdriver/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_test/test_contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_test/page/addresslist_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_test/page/member_invit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/appium/webdriver/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4278">
-          <caret line="229" column="10" selection-start-line="229" selection-start-column="10" selection-end-line="229" selection-end-column="10" />
-          <folding>
-            <element signature="e#658#669#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/appium/webdriver/extensions/android/activities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1817">
-          <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_OP/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_OP/test_case1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_OP/huogewos.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_wekwork_mian/page/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/test_001.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appium_test/appium_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_wekwork_mian/test_case/test_add_member.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_winwork_main_test/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI自动化测试框架/page/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="26" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI自动化测试框架/page/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_winwork_main_test/page/add_member.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_winwork_main_test/page/base_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="e#86#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_winwork_main_test/page/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/Python39/Lib/tempfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="472" selection-start-line="472" selection-end-line="472" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/Python39/Lib/functools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI自动化测试框架/page/base_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1104630702/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="2658" column="12" selection-start-line="2658" selection-start-column="12" selection-end-line="2658" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_test/page/base_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/Python39/Lib/importlib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2875">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_test/page/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_test/page/contact_add.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_test/page/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/search4.yaml" />
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/search3.yaml" />
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/search2.yaml" />
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/search1.yaml" />
-    <entry file="file://D:/Python/Python39/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="185" column="53" lean-forward="true" selection-start-line="185" selection-start-column="53" selection-end-line="185" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/test_case/test_wrapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/Python39/Lib/inspect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/main.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/market.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/wrapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/test_case/test_yaml_load.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appium_xueqiu/test_case/test_search.yaml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1067,46 +724,329 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/test_case/test_stack.py">
+    <entry file="file://$PROJECT_DIR$/appium_xueqiu/test_case/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appium_xueqiu/test_case/try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appium_xueqiu/test_case/seleniumgrid/node2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appium_grid/test_case/result/28b3be6a-41ed-43b2-9472-770aaef2f499-result.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="78" lean-forward="true" selection-start-column="78" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appium_grid/test_case/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appium_xueqiu/test_case/seleniumgrid/node1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appium_grid/test_case/test_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appium_grid/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appium_grid/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_wekwork_mian/page/add_member.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appium_grid/page/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_test/page/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="19" lean-forward="true" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_wekwork_mian/page/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_winwork_main_test/page/base_page.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_winwork_main_test/page/add_member.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/appcrawler/demo.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="110" column="9" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/pluggy/_hooks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1413">
+          <caret line="264" selection-start-line="264" selection-end-line="264" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_xueqiu/.pytest_cache/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_file_alter/test_file.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/search.yaml">
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/_pytest/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="91">
+          <caret line="268" selection-start-line="268" selection-end-line="268" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/search.py">
+    <entry file="file://$PROJECT_DIR$/appium_xueqiu/test_case/test_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-870">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="23">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appium_xueqiu/test_case/test_wrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_xueqiu/.pytest_cache/v/cache/nodeids">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_xueqiu/.pytest_cache/v/cache/stepwise">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_xueqiu/.pytest_cache/v/cache/lastfailed">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appium_xueqiu/test_case/test_vedio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_grid/test_grid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_xueqiu/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_requests/demo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_requests/test_rqquests1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mitmproxycesi/maplocal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_xueqiu/test_xueqiu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding>
+            <element signature="e#32#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_requests/env_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI自动化测试框架/page/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI自动化测试框架/page/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/base_page.py">
+    <entry file="file://$PROJECT_DIR$/HogwartsSDET12-master/appium_wework/testcases/run.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDET12-master/appium_wework/testcases/run_cases.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDET12-master/appium_wework/testcases/test_contact1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="58" column="16" lean-forward="true" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        <state relative-caret-position="46">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/test_case/test_search.py">
+    <entry file="file://$PROJECT_DIR$/HogwartsSDET12-master/appium_wework/page/addresslist_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="138">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDET12-master/appium_wework/page/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDET12-master/appium_wework/testcases/test_search.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/appium/webdriver/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7912">
+          <caret line="387" column="8" selection-start-line="387" selection-start-column="8" selection-end-line="387" selection-end-column="8" />
+          <folding>
+            <element signature="e#658#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HogwartsSDET12-master/appium_wework/page/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,8 @@
+update:
+  "method": "get",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/delete",
+  "params": {
+      "access_token": self.token,
+      "userid": userid
+
+  }

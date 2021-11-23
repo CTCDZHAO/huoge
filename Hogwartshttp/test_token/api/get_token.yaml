@@ -1,0 +1,5 @@
+method: get
+url: https://qyapi.weixin.qq.com/cgi-bin/gettoken
+params:
+  corpid: wwe3077ee291d6a898
+  corpsecret: a-_vouMKTXFxX3G4yEWn8lsBNP2Cmq21oZWR24SFtJ0
